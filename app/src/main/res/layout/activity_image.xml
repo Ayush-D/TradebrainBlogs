@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp">
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgHead"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background"/>
+
+    <TextView
+        android:id="@+id/tvTitles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgHead"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:gravity="center"
+        android:text="DELHI"
+        android:textColor="#000"
+        android:textSize="17sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnMores"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/tvTitles"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="91dp"
+        android:background="#93edcf"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Click Here"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+</RelativeLayout>
